@@ -44,7 +44,7 @@ int main(void)
 
     bool valid = false;
 
-    if(validity_mod == 0 && (startingDigit))
+    if(validity_mod == 0)
     {
         int firstTwo = (digits[startingDigit]*10) + digits[startingDigit-1];
 
